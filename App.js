@@ -15,6 +15,7 @@ function App() {
     e.preventDefault();
     console.log("fnkwrfurwfguegurfgeuyr");
     addToDo(value);
+    // the value has to be set here to be as empty
     setValue('');
   };
   const addToDo = (text) =>{
